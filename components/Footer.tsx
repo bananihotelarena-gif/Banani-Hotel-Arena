@@ -19,10 +19,10 @@ export default function Footer() {
   ];
 
   const roomLinks = [
-    { name: "Standard Single Room Ac (TK 3,141)", href: "#rooms" },
-    { name: "Standard Couple Room Ac (TK 3,141)", href: "#rooms" },
-    { name: "Deluxe Couple Room Ac (TK 4,041)", href: "#rooms" },
-    { name: "Premium Family Room Ac (TK 4,941)", href: "#rooms" },
+    { name: "Standard Single Room Ac (TK 3,500)", href: "#rooms" },
+    { name: "Standard Couple Room Ac (TK 4,000)", href: "#rooms" },
+    { name: "Deluxe Couple Room Ac (TK 4,500)", href: "#rooms" },
+    { name: "Premium Family Room Ac (TK 5,500)", href: "#rooms" },
   ];
 
   return (

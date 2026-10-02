@@ -134,7 +134,7 @@ export default function Hero() {
                         Rates Starting From
                       </span>
                       <span className="font-serif text-lg font-bold text-charcoal">
-                        TK 3,141 <span className="text-xs font-sans font-normal text-charcoal-500">/ night</span>
+                        TK 3,500 <span className="text-xs font-sans font-normal text-charcoal-500">/ night</span>
                       </span>
                     </div>
                     <span className="inline-block px-2 py-0.5 text-[10px] font-medium tracking-wide uppercase bg-gold/15 text-gold-dark rounded">

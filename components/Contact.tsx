@@ -15,7 +15,9 @@ import {
 } from "lucide-react";
 
 export default function Contact() {
-  const [selectedRoom, setSelectedRoom] = useState("Deluxe Couple Room Ac (2)");
+  const [selectedRoom, setSelectedRoom] = useState(
+    "Deluxe Couple Room Ac (3) - TK 4,500"
+  );
   const [checkInDate, setCheckInDate] = useState("");
   const [guestCount, setGuestCount] = useState("2");
   const [guestName, setGuestName] = useState("");
@@ -202,17 +204,17 @@ export default function Contact() {
                       onChange={(e) => setSelectedRoom(e.target.value)}
                       className="w-full px-3.5 py-2.5 rounded-lg text-sm bg-cream-50/70 border border-cream-300 focus:outline-none focus:ring-2 focus:ring-gold/60 focus:bg-white text-charcoal transition-all"
                     >
-                      <option value="Standard Single Room Ac (1) - TK 3,141">
-                        Standard Single Room Ac (TK 3,141)
+                      <option value="Standard Single Room Ac (1) - TK 3,500">
+                        Standard Single Room Ac (TK 3,500)
                       </option>
-                      <option value="Standard Couple Room Ac (2) - TK 3,141">
-                        Standard Couple Room Ac (TK 3,141)
+                      <option value="Standard Couple Room Ac (2) - TK 4,000">
+                        Standard Couple Room Ac (TK 4,000)
                       </option>
-                      <option value="Deluxe Couple Room Ac (2) - TK 4,041">
-                        Deluxe Couple Room Ac (TK 4,041)
+                      <option value="Deluxe Couple Room Ac (3) - TK 4,500">
+                        Deluxe Couple Room Ac (TK 4,500)
                       </option>
-                      <option value="Premium Family Room Ac (3) - TK 4,941">
-                        Premium Family Room Ac (TK 4,941)
+                      <option value="Premium Family Room Ac (4) - TK 5,500">
+                        Premium Family Room Ac (TK 5,500)
                       </option>
                     </select>
                   </div>

@@ -18,7 +18,7 @@ export default function StructuredData() {
       "Banani Hotel Arena is a premier residential hotel in Banani, Dhaka, providing clean, comfortable, and relaxing AC rooms with modern amenities for solo travelers, couples, and families.",
     telephone: "+8801352066041",
     email: "info@bananihotelarena.com",
-    priceRange: "TK 3,141 - TK 4,941",
+    priceRange: "TK 3,500 - TK 5,500",
     currenciesAccepted: "BDT",
     paymentAccepted: "Cash, Mobile Banking, Cards",
     checkinTime: "12:00",
@@ -99,7 +99,7 @@ export default function StructuredData() {
           name: "Standard Single Room Ac (1)",
           description:
             "A cozy and comfortable room designed for single occupancy. The Standard Single Room is an ideal choice for solo travelers, business guests, and visitors looking for a comfortable stay in Banani.",
-          price: "3141",
+          price: "3500",
           priceCurrency: "BDT",
           availability: "https://schema.org/InStock",
           itemOffered: {
@@ -120,8 +120,8 @@ export default function StructuredData() {
           "@type": "Offer",
           name: "Standard Couple Room Ac (2)",
           description:
-            "Banani Hotel Arena offers a comfortable standard rooms for single occupancy with both AC and non-AC options. We offers comfortable service.",
-          price: "3141",
+            "Banani Hotel Arena offers comfortable standard AC rooms for single or double occupancy with modern amenities and quality hospitality.",
+          price: "4000",
           priceCurrency: "BDT",
           availability: "https://schema.org/InStock",
           itemOffered: {
@@ -140,18 +140,18 @@ export default function StructuredData() {
         },
         {
           "@type": "Offer",
-          name: "Deluxe Couple Room Ac (2)",
+          name: "Deluxe Couple Room Ac (3)",
           description:
-            "Discover comfort and elegance in the Deluxe Room at Banani Hotel Arena, offering AC and non-AC options for couples.",
-          price: "4041",
+            "Discover enhanced comfort and elegance in our Deluxe AC Room at Banani Hotel Arena, offering premium furnishings and top-tier amenities.",
+          price: "4500",
           priceCurrency: "BDT",
           availability: "https://schema.org/InStock",
           itemOffered: {
             "@type": "HotelRoom",
-            name: "Deluxe Couple Room Ac (2)",
+            name: "Deluxe Couple Room Ac (3)",
             occupancy: {
               "@type": "QuantitativeValue",
-              maxValue: 2,
+              maxValue: 3,
             },
             bed: {
               "@type": "BedDetails",
@@ -162,18 +162,18 @@ export default function StructuredData() {
         },
         {
           "@type": "Offer",
-          name: "Premium Family Room Ac (3)",
+          name: "Premium Family Room Ac (4)",
           description:
-            "Discover comfort and elegance in the Deluxe Room at Banani Hotel Arena, offering AC and non-AC options for couples.",
-          price: "4941",
+            "Spacious suite designed for family or group stays at Banani Hotel Arena, accommodating up to 4 guests with modern AC and attentive service.",
+          price: "5500",
           priceCurrency: "BDT",
           availability: "https://schema.org/InStock",
           itemOffered: {
             "@type": "HotelRoom",
-            name: "Premium Family Room Ac (3)",
+            name: "Premium Family Room Ac (4)",
             occupancy: {
               "@type": "QuantitativeValue",
-              maxValue: 3,
+              maxValue: 4,
             },
             bed: {
               "@type": "BedDetails",
