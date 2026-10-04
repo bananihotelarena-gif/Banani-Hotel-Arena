@@ -286,7 +286,7 @@ export default function Contact() {
                   </p>
                 </div>
                 <a
-                  href="https://maps.google.com/?q=House+No-+65/A,+Road+27,+Block-A,+Banani,+Dhaka+1213"
+                  href="https://www.google.com/maps/place/Banani+Hotel+Arena/@23.7986578,90.3998606,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c78d03ad2a79:0xfb4abc0ee4b26d7b!8m2!3d23.7986578!4d90.3998606!16s%2Fg%2F11w7f9p3p_?entry=ttu"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-xs font-semibold text-gold hover:text-gold-dark uppercase tracking-wider underline underline-offset-4"
@@ -299,14 +299,14 @@ export default function Contact() {
               <div className="relative w-full aspect-[4/3] sm:aspect-[16/11] lg:min-h-[460px] rounded-lg overflow-hidden border border-cream-300 bg-cream-200">
                 <iframe
                   title="Banani Hotel Arena Google Map Location"
-                  src="https://maps.google.com/maps?q=House%20No-%2065/A,%20Road%2027,%20Block-A,%20Banani,%20Dhaka%201213,%20Bangladesh&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.560561409923!2d90.39986058885495!3d23.798657799999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c78d03ad2a79%3A0xfb4abc0ee4b26d7b!2sBanani%20Hotel%20Arena!5e0!3m2!1sen!2sbd!4v1791106322787!5m2!1sen!2sbd"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
-                  allowFullScreen={false}
+                  allowFullScreen
                   loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  className="w-full h-full grayscale-[15%] contrast-[105%]"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  className="w-full h-full grayscale-[10%] contrast-[105%]"
                 />
               </div>
 

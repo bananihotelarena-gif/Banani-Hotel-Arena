@@ -33,10 +33,10 @@ export default function StructuredData() {
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 23.7937,
-      longitude: 90.4043,
+      latitude: 23.7986578,
+      longitude: 90.3998606,
     },
-    hasMap: "https://maps.google.com/?q=House+No-+65/A,+Road+27,+Block-A,+Banani,+Dhaka+1213",
+    hasMap: "https://www.google.com/maps/place/Banani+Hotel+Arena/@23.7986578,90.3998606,17z",
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
